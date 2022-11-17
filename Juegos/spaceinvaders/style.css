@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 2rem;
+    border: 5px solid black;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;    
+}
+
+.shooter {
+    background-color: red;
+    
+}
+
+.invader {
+   background-color: blueviolet;
+   border-radius: 50%;
+}
+
+.boom {
+    background-color: rgb(255, 136, 0);
+
+}
+
+.laser {
+    background-color: yellow;
+}

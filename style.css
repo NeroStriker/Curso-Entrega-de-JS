@@ -1,0 +1,33 @@
+.paginaPrincipal{
+    background-color: lightblue;
+}
+.contenedorJuegos{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 2rem;
+    border: 5px solid black;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bienvenida {
+    margin-bottom: 2rem;
+}
