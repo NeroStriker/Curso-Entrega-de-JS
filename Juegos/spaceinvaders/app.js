@@ -94,6 +94,11 @@ function moveInvaders() {
   }
   if (aliensRemoved.length === alienInvaders.length) {
     resultsDisplay.innerHTML = 'Ganaste!'
+    Swal.fire({
+      icon: 'success',
+      title: 'Ganaste!',
+      text: 'Puedes probar los otros juegos',
+      })
     clearInterval(invadersId)
   }
 }

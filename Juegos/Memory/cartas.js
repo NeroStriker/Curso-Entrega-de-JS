@@ -90,7 +90,12 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsChosenID = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2){
-            resultDisplay.textContent = "Ganaste!"
+            resultDisplay.textContent = "Ganaste!"            
+            Swal.fire({
+            icon: 'success',
+            title: 'Ganaste!',
+            text: 'Puedes probar los otros juegos',
+            })
         }
     }
 

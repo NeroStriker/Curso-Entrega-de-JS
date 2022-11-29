@@ -38,7 +38,11 @@ function Countdown() {
 
     if (currentTime === 0) {
         clearInterval(timeID)
-        alert("Fin del juego! Tu resultado fue: " + result)        
+       Swal.fire({
+            icon: 'success',
+            title: 'Tu puntaje fue de:',
+            text: result + 'puntos',
+            })     
     }
 }
 
